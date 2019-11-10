@@ -1,0 +1,4 @@
+student name: Gilberto seedorf
+student number: 655359
+student class: INF1SD
+URL student GitHub repository: https://github.com/gilbertoseedorf/Website-Webmarkup
