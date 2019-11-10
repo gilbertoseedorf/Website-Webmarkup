@@ -24,6 +24,12 @@ h4{
 	margin: 0.8em;    /* de afstand tussen de text */
 }
 
+
+h6{
+	text-align: left;   /* de tekst links zetten */
+	margin: 0.8em;    /* de afstand tussen de text */
+}
+
 	
 	
 ul {  /* is een list */
@@ -260,6 +266,16 @@ button[type=submit]:hover {  /* als je over de submit gaat verander de kleur*/
 .container {
 
   padding: 20px;
+}
+
+
+#filmpje{
+	height: 300px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
 }
 
 
