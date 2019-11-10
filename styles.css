@@ -1,0 +1,266 @@
+body {        /* de body stylen*/
+  margin: 0;   /* de afstand van een element */
+  font-family: Arial, Helvetica, sans-serif;   /* lettertype */
+  background-color: #e6ffe6;   /* achtergrond kleur */
+}
+
+h1{    /* header1 stylen */
+	text-align:center;   /* de positie van de tekst centreren*/
+	margin: 0;      
+	}
+
+h2{
+	text-align:center;
+	margin: 0;
+	}	
+	
+h3{
+text-align:center;
+margin: 0;
+}	
+	
+h4{
+	text-align: left;   /* de tekst links zetten */
+	margin: 0.8em;    /* de afstand tussen de text */
+}
+
+	
+	
+ul {  /* is een list */
+  overflow: hidden;  /* als de element te groot is wordt het niet getoond*/
+  background-color: #a6a6a6;   /* achtergrond kleur */
+  list-style-type: none;   /* hoe de element moet zijn dus bijvoorbeeld bulletpoits of cijfers */
+    margin: 0px;
+}
+
+ li a {  /* de navigation bar */
+  float: left;   
+  color: #b3ffb3;
+  text-align: center;
+  padding: 14px 16px;    /* maakt extra ruimte in een element*/
+  text-decoration: none; /* hoe de text eruit moet zien dus bijvoorbeeld een streep erdoon of eronder.*/
+  font-size: 17px; /* de text groote */
+  
+
+}
+
+ li a:hover {  /* als je over de woorden van li a gaat doe dan het onderstaande */
+  background-color: #ddd;
+  color: black;
+}
+
+ a.active {  /* als er op a is gedrukt doe dan het onderstaande */
+  background-color: #00b300;
+  color: white;
+}
+
+img.image5{  /* een class voor een afbeelding */
+	
+	width: 280px;
+	height: 190px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+	
+	
+}
+
+img.image6{  /* een class voor een afbeelding */
+	
+	
+	width: 300px;  /* de breedte */
+	height: 190px; /* de hoogte */
+	float:left;
+	margin-right:10px; /* de spaties van de elementen aan de rechter kant*/
+	margin-bottom:5px;  /* de spaties van de elementen aan de onderkant kant*/
+	padding: 2px; 
+	
+}
+img.image17{
+	
+	
+	width: 300px;
+	height: 55px;
+	float:left;
+	margin-right:5px;
+	margin-bottom: 0px;
+	padding: 2px;
+	
+}
+
+img.image7{
+	
+	
+	width: 300px;
+	height: 190px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+	
+	
+	
+}
+
+img.image8{
+	
+	
+	width: 200px;
+	height: 150px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+	border: 1px solid black;
+	
+	
+}
+
+img.image10{
+	
+	
+	width: 200px;
+	height: 150px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+	border: 1px solid black;
+	
+	
+}
+
+img.image11{
+	
+	
+	width: 200px;
+	height: 150px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+	border: 1px solid black;
+	
+}
+section.space{   /* is een class voor de section*/
+	clear:both;   /* ipv display block is dit gebruikt om de afbeeldingen onder elkaar te krijgen*/
+}					/* of het aan de rechter kant en linkerkant leeg moet zijn*/
+
+
+img.image9{
+	
+	
+	width: 200px;
+	height: 150px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+	border: 1px solid black;
+		
+}
+
+p.intro{  /* een class voor de tag <p>*/
+	
+	text-align: right;
+	right: 50px; /* de text aan de rechter kant*/
+	top:150px; /* afstand vanaf de top dus 150 px naar beneden*/ 
+	margin: 0em;
+	
+}
+
+p.intro2 { /* de spaties van de elementen aan de rechter kant*/
+	#position: absolute;  /* de positie mag overal zijn*/
+	text-align:left;
+	margin: 0.4em;
+}
+p.intro3 {
+	#position: absolute;
+	text-align:justify;
+	margin: 0.5em;
+	font-size: 17px;
+}
+
+p.intro4 {
+	position: absolute;
+	text-align:center;
+	font-size: 20px;
+	z-index: 1;
+	
+	 margin: 0;
+	 top:600px;
+	 color:red;
+}
+
+
+
+img.image1 {
+	
+	
+	width: 200px;
+	height: 240px;
+	float:left;
+	border: solid black 1px;
+	margin-right:8px;
+	margin-bottom:5px;
+	padding:2px;
+	
+  
+ 
+ 
+}
+img.image2 {
+	
+	
+	width: 240px;
+	height: 240px;
+	float:left;
+	border: solid black 1px;
+	margin-right:10px;
+	margin-bottom:5px;
+	padding: 2px;
+}
+
+footer{  /* de footer van een pagina, helemaal onderin in het grijs*/
+	
+  position:fixed;  /* het heeft een vaste positie*/
+   left:0px;
+   bottom:0px;   /* vanaf de bodem gaat het 0px om hoog*/
+  
+   width:100%;
+   background:#999;
+   text-align: right;
+}
+
+input[type=text], select, textarea {   /* de text die in de balk staat*/
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;   /* een rand die 1px dik moet zijn*/
+  border-radius: 4px; /* de groote van de box*/
+  box-sizing: border-box; /* de googhe en breedte is alle kanten van de element*/
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;  /* kan alleen de hoogte veranderen van het element*/
+}
+
+button[type=submit] {   /* de submit button*/
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;     /* hoe de curser eruit zijn als je op de submit gaat*/
+}
+
+button[type=submit]:hover {  /* als je over de submit gaat verander de kleur*/
+  background-color: #45a049;
+}
+
+.container {
+
+  padding: 20px;
+}
+
+
+
